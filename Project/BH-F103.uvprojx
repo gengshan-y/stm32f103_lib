@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\User\led;..\User\rcc;..\User\exti;..\User\systick;..\User\usart;..\User\GeneralTim</IncludePath>
+              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\User\led;..\User\rcc;..\User\exti;..\User\systick;..\User\usart;..\User\GeneralTim;..\User\AdvanceTim</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -601,6 +601,11 @@
               <FileName>bsp_GeneralTim.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\GeneralTim\bsp_GeneralTim.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_AdvancelTim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\AdvanceTim\bsp_AdvancelTim.c</FilePath>
             </File>
           </Files>
         </Group>
